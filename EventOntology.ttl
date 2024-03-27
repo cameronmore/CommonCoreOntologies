@@ -464,6 +464,14 @@ cco:ActOfFinancialWithdrawal rdf:type owl:Class ;
                              rdfs:label "Act of Financial Withdrawal"@en .
 
 
+###  http://www.ontologyrepository.com/CommonCoreOntologies/ActOfFishing
+cco:ActOfFishing rdf:type owl:Class ;
+                 rdfs:subClassOf cco:IntentionalAct ;
+                 cco:definition "A Planned Act wherein an Agent or group of Agents catch or trap marine life."@en ;
+                 cco:is_curated_in_ontology "http://www.ontologyrepository.com/CommonCoreOntologies/Mid/EventOntology"^^xsd:anyURI ;
+                 rdfs:label "Act of Fishing"@en .
+
+
 ###  http://www.ontologyrepository.com/CommonCoreOntologies/ActOfFunding
 cco:ActOfFunding rdf:type owl:Class ;
                  rdfs:subClassOf cco:ActOfFinancialInstrumentUse ;
@@ -490,6 +498,14 @@ cco:ActOfHomicide rdf:type owl:Class ;
                   cco:definition "An Act of Violence which causes the unlawful killing of another person."@en ;
                   cco:is_curated_in_ontology "http://www.ontologyrepository.com/CommonCoreOntologies/Mid/EventOntology"^^xsd:anyURI ;
                   rdfs:label "Act of Homicide"@en .
+
+
+###  http://www.ontologyrepository.com/CommonCoreOntologies/ActOfHunting
+cco:ActOfHunting rdf:type owl:Class ;
+                 rdfs:subClassOf cco:IntentionalAct ;
+                 cco:definition "A Planned Act wherein an Agent or group of Agents attempt to capture animals by stalking or pursuit."@en ;
+                 cco:is_curated_in_ontology "http://www.ontologyrepository.com/CommonCoreOntologies/Mid/EventOntology"^^xsd:anyURI ;
+                 rdfs:label "Act of Hunting"@en .
 
 
 ###  http://www.ontologyrepository.com/CommonCoreOntologies/ActOfIdentifying
